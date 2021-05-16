@@ -1,0 +1,31 @@
+<style type="text/css">
+	<style>
+		div.gallery:hover {
+			border: 1px solid black;
+		}
+		div.gallery img {
+			width: 200px;
+			height: 150px;
+			margin-left : auto;
+			margin-right : auto;
+			display : block;
+		}
+		div.desc {
+			padding: 20px;
+			text-align: center; 
+		}
+		.judul{
+			border : 2px solid black; 
+			border-radius : 5px; 
+			background-color : white; 
+			text-align : center;
+			font-family : Castellar;
+			box-shadow : 7px 7px 15px;
+		}
+		.text{
+			border: 30px solid transparent;
+			padding: 10px;
+			border-image: url(back.jpg) 50 round;
+			box-shadow : 7px 7px 15px;
+		}
+	</style>
